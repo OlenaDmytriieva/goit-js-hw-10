@@ -44,6 +44,7 @@ flatpickr(inputEl, flatpickrOptions);
 
 btnStart.addEventListener('click', () => {
   btnStart.disabled = true;
+  inputEl.disabled = true;
   startCountdown();
 });
 

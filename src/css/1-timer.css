@@ -68,10 +68,20 @@ input {
 }
 
 input:hover,
-input:focus,
 textarea:hover,
 textarea:focus {
   border: 1px solid #000;
+}
+
+input:focus {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+
+input:disabled,
+input[disabled] {
+  background-color: #fafafa;
+  color: #808080;
 }
 
 .timer {
