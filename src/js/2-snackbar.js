@@ -4,9 +4,9 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const input = document.querySelector('input[name="delay"]');
 // const radioBtn = document.querySelector('fieldset');
-const submitBtn = document.querySelector('button');
+const form = document.querySelector('form');
 
-submitBtn.addEventListener('click', e => {
+form.addEventListener('submit', e => {
   e.preventDefault();
 
   const radioBtn = document.querySelector('input[name="state"]:checked');
